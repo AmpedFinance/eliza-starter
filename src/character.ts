@@ -4,7 +4,7 @@ export const character: Character = {
     ...defaultCharacter,
     "name": "Eliza",
     "plugins": [],
-    "clients": [],
+    "clients": ["twitter", "discord"],
     "modelProvider": "openrouter",
     "settings": {
       "secrets": {},
